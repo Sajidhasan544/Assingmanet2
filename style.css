@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Quicksand:wght@300..700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* nav style  */
+.nav{
+    width: 90vw;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    height: 62px;
+    width: 62px;
+}
+.logo h1{
+    font-family: "Work Sans", serif;
+    margin-left: 10px;
+    font-size: 32px;
+    font-weight: 700;
+}
+.nav ul{
+    font-size: 20px;
+    display: flex;
+    list-style: none;
+    gap: 32px;
+}
+.home{
+    font-family: "Work Sans", serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: orange;
+}
+.about{
+    font-family: "Work Sans", serif;
+    font-weight: 700;
+    font-size: 20px;
+    color:rgb(1,172,253);
+}
+.facalities{
+    font-family: "Work Sans", serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: rgb(5, 212, 232)
+}
+.admission{
+    font-family: "Work Sans", serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: rgb(93,88,239);
+}
+.contact{
+    font-family: "Work Sans", serif;
+    background-color: rgb(254,163,1);
+    width: 197px;
+    height: 50px;
+    border: none;
+    border-radius: 12px;
+    color: white;
+}
+.ham{
+    display: none;
+}
+
+/* banner  */
+
+.banner{
+    margin-top: 50px;
+    width: 90vw;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.banner-cont h1{
+    font-family: "Merriweather", serif;
+    font-size: 3.5rem;
+}
+
+.banner-cont p{
+    font-size: 1.5rem;
+    margin-bottom: 24px;
+    font-family: "Merriweather", serif;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.enrole{
+    color: white;
+    background-color: black;
+    border-radius: 12px;
+    width: 197px;
+    height: 50px;
+    border: none;
+    border-radius: 12px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+
+
+
+/* cariculam section  */
+.section1 {
+    margin-top: 5px;
+    background-image: url('assets/bg.png');
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sec1 h1 {margin-top: 80px;
+    text-align: center;
+    font-family: "Merriweather", serif;
+    margin-bottom: 80px;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.cards{
+    display: flex;
+    gap: 30px;
+}
+
+.card1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 367.8px;
+    height: 476.78px;
+    box-sizing: border-box;
+    border: 0.94px solid rgb(222, 245, 255);
+    border-radius: 18.86px;
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(180.00deg, rgb(222, 245, 255), rgba(255, 255, 255, 0) 40%), rgb(255, 255, 255);
+}
+
+.card1 img {
+    width: 136.76px;
+    height: 136.76px;
+}
+
+.card1 h2 {
+    font-family: "Merriweather", serif;
+    font-size: 24.52px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.card1 p {
+    font-family: "Merriweather", serif;
+    font-size: 15.09px;
+    font-weight: 500;
+    text-align: center;
+    color: rgb(128, 128, 128);
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.card1 button {
+    color: rgb(100, 200, 255);
+    background-color: white;
+    border: none;
+}
+
+
+.card2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 367.8px;
+    height: 476.78px;
+    box-sizing: border-box;
+    border: 0.94px solid rgb(255, 244, 220);
+    border-radius: 18.86px;
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(180.00deg, rgb(255, 244, 220), rgba(255, 255, 255, 0) 40%), rgb(255, 255, 255);
+}
+
+.card2 img {
+    width: 136.76px;
+    height: 136.76px;
+}
+
+.card2 h2 {
+    font-family: "Merriweather", serif;
+    font-size: 24.52px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.card2 p {
+    font-family: "Merriweather", serif;
+    font-size: 15.09px;
+    font-weight: 500;
+    text-align: center;
+    color: rgb(128, 128, 128);
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.card2 button {
+    color: rgb(240, 170, 0);
+    background-color: white;
+    border: none;
+}
+
+
+
+.card3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 367.8px;
+    height: 476.78px;
+    box-sizing: border-box;
+    border: 0.94px solid rgb(242, 232, 255);
+    border-radius: 18.86px;
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(180.00deg, rgb(238, 225, 255), rgba(255, 255, 255, 0) 40%), rgb(255, 255, 255);
+}
+
+
+
+
+.card3 img {
+    width: 136.76px;
+    height: 136.76px;
+}
+
+.card3 h2 {
+    font-family: "Merriweather", serif;
+    font-size: 24.52px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.card3 p {
+    font-family: "Merriweather", serif;
+    font-size: 15.09px;
+    font-weight: 500;
+    text-align: center;
+    color: rgb(128, 128, 128);
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.card3 button {
+    color: rgb(135,0,255);
+    background-color: white;
+    border: none;
+}
+
+
+
+/* stories section  */
+
+
