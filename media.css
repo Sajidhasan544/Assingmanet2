@@ -1,3 +1,5 @@
+/* NB: Footer sections logo img background white becouse of blue background */
+
 @media screen and (max-width:576px) {
 
     /* nav style  */
@@ -137,7 +139,7 @@
         margin-top: 80px;
     }
 
-    .about{
+    .aabout{
         display: flex;
         flex-direction: column;
         justify-content: left;
@@ -145,7 +147,7 @@
         margin-left: 25px;
     }
 
-    .about ul{
+    .aabout ul{
         justify-content: left;
         gap: 10px;
         align-items: flex-start;

@@ -45,7 +45,7 @@
     font-family: "Work Sans", serif;
     font-weight: 700;
     font-size: 20px;
-    color:rgb(1,172,253);
+    color:#01ACFD;
 }
 .facalities{
     font-family: "Work Sans", serif;
@@ -336,7 +336,6 @@
     width: 433px;
 }
 
-
 .divs {
     display: flex;
     flex-direction: column;
@@ -441,6 +440,7 @@
     font-size: 42.14px;
     font-weight: 700;
 }
+
 .fotsec{
     margin-top: 100px;
     display: flex;
@@ -458,11 +458,11 @@
     width: 300px;
 }
 
-.about{
+.aabout{
     color: white;
 }
 
-.about ul{
+.aabout ul{
 font-family: "Merriweather", serif;
 margin-top: 20px;
 list-style: none;
@@ -470,7 +470,7 @@ display: flex;
 flex-direction: column;
 gap: 20px;
 }
-.about h2{
+.aabout h2{
 font-family: "Merriweather", serif;
 font-size: 24px;
 font-weight: 700;
