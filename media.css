@@ -124,5 +124,55 @@
     .allc button{
         font-size: 12px;
     }
+
+    .footer{
+        flex-direction: column;
+        gap: 50px;
+        justify-content: left;
+        align-items: flex-start;
+        height: auto;
+    }
+
+    .kids{
+        margin-top: 80px;
+    }
+
+    .about{
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        align-items: flex-start;
+        margin-left: 25px;
+    }
+
+    .about ul{
+        justify-content: left;
+        gap: 10px;
+        align-items: flex-start;
+    }
+
+    .logos{
+        justify-content: center;
+        gap: 20px;
+        align-items: center;
+        margin-top: 30px;
+        margin-left: 25px;
+        margin-bottom: 100px;
+    }
+    .kids{
+        margin-left: 25px;
+    }
+
+    .log{
+        gap: 10px;
+    }
+
+    .line{
+        display: inline-block;
+    }
+
+    .icons{
+        display: none;
+    }
   
 }
